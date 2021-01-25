@@ -1,0 +1,423 @@
+@charset "utf-8";
+body{
+    background-color: #F7F7F7;
+}
+.dingwei{
+    position: fixed;
+    right:0rem;top: 16rem;
+    z-index: 5;
+}
+.dingwei li{
+    position: relative;
+    width: 2.3077rem;
+    height: 2.3077rem;
+    margin-bottom: 0.1538rem;
+    background:url(../img/erji.png) no-repeat center 0.3077rem;
+    background-size: 0.9615rem 0.9615rem;
+    background-color: #0760E5;
+}
+.dingwei li a{
+    font-size: 0.4615rem;
+    color: #FFFFFF;
+    position: absolute;
+    left: 0.2308rem;bottom: 0.0769rem;
+}
+
+header{
+    height: 1.425rem;
+    line-height: 1.425rem;
+    background-color: #FFFFFF;
+}
+header .logo{
+    display: block;
+    margin: 0px auto;
+    width: 3.8rem;
+    height: 1rem;
+}
+header .caidan{
+    margin-top: -0.65rem;
+    width: 0.65rem;
+    height: 0.525rem;
+}
+
+.banner{
+    width: 15.9231rem;
+    height: 7.6923rem;
+    position: relative;
+    overflow: hidden;
+}
+.banner ul{
+    width: 31.8462rem;
+    height: 7.6923rem;
+    position: absolute;
+    left: 0;top: 0;
+}
+.banner  ul li{
+    width: 15.9231rem;
+    height: 7.6923rem;
+    position: relative;
+    float: left;
+}
+.banner ul li img{
+    width: 100%;
+    height: 100%;
+}
+.banner a{
+    display: inline-block;
+    width: 1.2308rem;
+    height: 1.7692rem;
+    background-color: rgba(1, 1, 1, .4);
+    text-align: center;
+    line-height: 1.7692rem;
+}
+.banner .prev{
+    position: absolute;
+    left: 0;top: 3.075rem;
+    color: white;
+}
+.banner .next{
+    position: absolute;
+    color: white;
+    right: 0;top: 3.075rem;
+}
+.neirong1{
+    background-color: #FDFDFD;
+    box-shadow: 0px 3px 3px rgba(1, 1, 1, .3);
+    margin-left: 0.4615rem;
+    margin-top: 0.7692rem;
+    width: 15rem;
+    height: 17.5385rem;
+}
+.neirong1 .top{
+    text-align: center;
+    padding-top: 16.0004px;
+}
+.neirong1 .top img{
+    margin-top: 0.375rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.neirong1 .top h3{
+    font-size: 0.6923rem;
+    color: black;
+    margin-top: 0.25rem;
+    font-weight: normal;
+    margin-top: 0.5385rem;
+}
+.neirong1 .top p{
+    margin-top: 0.1rem;
+    font-size: 0.5385rem;
+    color: #999999;
+    margin-top: 0.3846rem;
+}
+.neirong1 .zhong{
+    margin-left: 0.35rem;
+    margin-top: 0.6154rem;
+}
+.neirong1 .zhong h4{
+    font-size: 0.7692rem;
+    font-weight: normal;
+    color:#075FE5;
+    margin-bottom: 0.3846rem;
+}
+.neirong1 .zhong p{
+    margin-top: 0.25rem;
+    font-size: 0.5385rem;
+    color: #333333;
+    line-height: 0.9231rem;
+    margin-right: 0.4615rem;
+}
+.neirong1 .xia{
+    margin-top: 0.9231rem;
+    text-align: center;
+    margin-top: 1.6rem;
+    position: relative;
+}
+.neirong1 .xia img{
+    width: 13.8462rem;
+    height: 4.6538rem;
+    text-align: center;
+}
+.neirong1 .xia h5{
+    position: absolute;
+    left: 25%;top:-15%;
+    width: 7.5rem;
+    height: 1.25rem;
+    background-color: #1D6DE6;
+    color: #FFFFFF;
+    line-height:1.25rem;
+    font-size: 0.4rem;
+    font-weight: normal;
+}
+.jiantou{
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+.jiantou a{
+    display: inline-block;
+    border: 1px solid #0760E5;
+    font-size: 0.4rem;
+    color: #0760E5;
+    border-radius: 0.4rem;
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+.jiantou a:hover{
+    background-color: #0760E5;
+}
+
+.neirong2{
+    width: 15.9231rem;
+    height: 11.8846rem;
+    position: relative;
+    background: url(../img/hebei.png) no-repeat;
+    background-size: 15.9231rem 11.8846rem;
+}
+/* .neirong2 img{
+    width: 100%;
+    height: 100%;
+}
+.neirong2 .bg{
+    position: absolute;
+    left: 0;top: 0;
+    width: 15.9231rem;
+    height: 11.8846rem;
+    background-color: rgba(1, 1, 1, .5);
+} */
+.neirong2 h3{
+    font-size: 0.7692rem;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 0.9231rem;
+    font-weight: normal;
+}
+.neirong2 h4{
+    font-size: 0.5385rem;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0.4615rem;
+}
+.neirong2 p{
+    font-size: 0.6154rem;
+    color: #ffffff;
+    padding-left: 0.4615rem;
+    line-height: 1rem;
+    margin-top: 0.8462rem;
+    padding-right: 0.4615rem;
+}
+.neirong2 a{
+    padding-left: 2.3077rem;
+    margin-top: 0.8462rem;
+    display: inline-block;
+    width: 5.3077rem;
+    height: 1.5769rem;
+    color: white;
+    font-size: 0.5385rem;
+    line-height: 1.5769rem;
+    background: url(../img/jiantou.png) no-repeat 4.8077rem center;
+    background-color: #2468D9;
+    border-radius: 0.7692rem;
+    margin-left: 4.1538rem;
+}
+.gongchang .head{
+    text-align: center;
+    font-size: 0.6923rem;
+    margin-top: 1.1538rem;
+    margin-bottom: 0.7692rem;
+}
+.gongchang .head a{
+    color: #333333;
+}
+.gongchang .head span{
+    padding: 0 0.3846rem;
+}
+.gongchang .head a:hover{
+    color:#075FE5;
+}
+.gongchang ul{
+    margin-left: 0.4615rem;
+}
+.gongchang ul li img{
+    width: 15rem;
+    height: 9.3077rem;
+}
+.gongchang ul li p{
+    font-size: 0.6154rem;
+    color: #333333;
+    text-align: center;
+    margin-top: 0.5385rem;
+    margin-bottom: 1rem;
+}
+
+.gonglue{
+    width: 15.9231rem;
+    height: 53.1154rem;
+    background-color: #FFFFFF;
+}
+.gonglue h5{
+    text-align: center;
+    font-size: 0.8462rem;
+    font-weight: normal;
+    padding-top: 1.1538rem;
+}
+.gonglue .p{
+    text-align: center;
+    font-size: 0.5385rem;
+    color: #999999;
+    margin-top: 0.8077rem;
+    line-height: 0.7692rem;
+    margin-left: 0.4615rem;
+    margin-right: 0.4615rem;
+}
+.gonglue .nav {
+    margin-left: 0.4615rem;
+    margin-top: 0.8462rem;
+}
+.gonglue .nav li{
+    width: 4.6154rem;
+    height: 1.5385rem;
+    text-align: center;
+    color: black;
+    background-color: #F3F3F3;
+    font-size: 0.6154rem;
+    float: left;
+    line-height: 1.5385rem;
+    margin-right: 0.5385rem;
+}
+.gonglue .nav li:hover{
+    background-color: #1B6AE6;
+    color: white;
+}
+.gonglue .n{
+    margin-left: 0.4615rem;
+    margin-top: 0.7692rem;
+}
+.gonglue .n li img{
+    width: 15rem;
+    height: 9.0385rem;
+}
+.gonglue .n li h3{
+    font-size: 0.6923rem;
+    font-weight: normal;
+    color:#333333;
+    height: 1.9231rem;
+    line-height: 1.9231rem;
+    border-bottom: 1px solid #6F6F6F;
+    margin-left: 0.4615rem;
+}
+.gonglue .n li p{
+    font-size: 0.5385rem;
+    color: #6F6F6F;
+    line-height: 0.9231rem;
+    margin-left: 0.4615rem;
+    margin-top: 0.5385rem;
+}
+.lanse{
+    width: 15.9231rem;
+    height: 8.1538rem;
+}
+.lanse img{
+    width: 100%;
+    height: 100%;
+}
+
+.liuyan{
+    width: 15rem;
+    margin-left: 0.4615rem;
+    margin-right: 0.4615rem;
+}
+.liuyan .shang{
+    height: 2.6923rem;
+    line-height: 2.6923rem;
+    border-bottom: 1px solid #DADADA;
+}
+.liuyan .shang h3{
+    font-size: 0.8462rem;
+    color: #333333;
+    font-weight: normal;
+}
+.liuyan .shang p{
+    font-size: 0.5385rem;
+    color: #333333;
+}
+.liuyan .shang p span{
+    font-size: 0.8462rem;
+    color: #075FE5;
+    padding: 0 0.1538rem;
+}
+.liuyan .shang p>span{
+    display:inline-block;
+    vertical-align:middle;    
+}
+.liuyan .xia{
+    margin-top: 1.0769rem;
+}
+.liuyan .xia h4{
+    font-size: 0.6154rem;
+    font-weight: normal;
+    background: url(../img/wenhao.png) no-repeat left center;
+    background-size: 0.7308rem 0.7308rem;
+    padding-left: 1.0769rem;
+}
+.liuyan .xia h5{
+    font-size: 0.5385rem;
+    color: #999999;
+    margin-top: 0.3077rem;
+    margin-bottom: 0.3846rem;
+    margin-left: 1.0769rem;
+}
+.liuyan .xia p{
+    font-size: 0.5385rem;
+    color: #656565;
+    line-height: 0.8077rem;
+    margin-left: 1.0769rem;
+    margin-bottom: 0.7692rem;
+}
+.zaixian form{
+    margin-top: 0.9615rem;
+    margin-left: 0.4615rem;
+}
+.zaixian h3{
+    height: 2.3077rem;
+    line-height: 2.3077rem;
+    font-size: 0.8462rem;
+    border-bottom: 1px solid #C6C6C6;
+    font-weight: normal;
+    margin-right: 0.4615rem;
+}
+.zaixian input{
+    border:none;
+    font-size: 0.5385rem;
+    color: #797979;
+    width: 15rem;
+    height: 1.5385rem;
+    line-height: 1.5385rem;
+    background-color: #F0F0F3;
+    margin-bottom: 0.5769rem;
+}
+.zaixian textarea{
+    border: none;
+    width: 15rem;
+    height: 3.8462rem;
+    background-color: #F3F3F4;
+    font-size: 0.5385rem;
+    color: #797979;
+}
+footer{
+    width: 15.9231rem;
+    height: 4.2308rem;
+    background-color: #4A4A4A;
+    font-size: 0.5385rem;
+    color: #BFBEBE;
+}
+footer ul{
+    margin-left: 0.4615rem;
+    padding-top: 0.6154rem;
+}
+footer ul li{
+    line-height: 1rem;
+}
